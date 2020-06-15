@@ -1,3 +1,3 @@
 # personal-website
  
-After download, use `npm start` to run.
+If you want to use template, after download, use `npm start` to run.
