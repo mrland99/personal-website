@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading, .gallery-image-landscape, .gallery-image-portrait {
+    background: transparent;
+}
+    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+  background-image: url("./../images/gallery-images/hardwood.jpg");
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 60px 40px 40px 40px;
+    color: white;
+}
+
+/* Landscape Styling */
+.gallery-image-landscape {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image-landscape img {
+  height: 300px;
+  width: 400px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box-landscape {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box-landscape {
+  height: 300px;
+  width: 400px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box-landscape:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box-landscape:hover .transparent-box-landscape {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box-landscape:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box-landscape:hover {
+  cursor: pointer;
+}
+
+/* Portrait style*/
+
+.gallery-image-portrait {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image-portrait img {
+  height: 400px;
+  width: 300px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box-portrait {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.transparent-box-portrait {
+  height: 400px;
+  width: 300px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box-portrait:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box-portrait:hover .transparent-box-portrait {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box-portrait:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box-landscape:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
