@@ -11,9 +11,11 @@ function App() {
   
   return (
     <div className="App">
+      <HashRouter>
         <Header />
         <Main />
         <Footer />
+      </HashRouter>
     </div>
   );
 }
