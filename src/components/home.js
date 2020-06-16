@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +7,6 @@ import earth_care from '../images/earth_care.jpg';
 import spatial from '../images/spatial.png';
 import half_dome from '../images/half_dome.jpg';
 import profile_pic from '../images/profile_long.jpg';
-
 
 function Home() {
   return (
@@ -19,7 +18,7 @@ function Home() {
                     <br></br>
                     <p>I'm Max and I'm currently a senior studying math at Princeton. </p>
                     <br></br>
-                    <a href="#one"><button><FontAwesomeIcon icon={faChevronDown}/> Learn more</button></a>
+                    <Link to="#one"><button><FontAwesomeIcon icon={faChevronDown}/> Learn more</button></Link>
                 </div>
                 <div class="image">
                     <img src={profile_pic} alt="" />
