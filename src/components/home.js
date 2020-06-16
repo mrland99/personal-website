@@ -7,6 +7,7 @@ import earth_care from '../images/earth_care.jpg';
 import spatial from '../images/spatial.png';
 import half_dome from '../images/half_dome.jpg';
 import profile_pic from '../images/profile_long.jpg';
+import binary_cloud from '../images/binary_cloud.png';
 
 function Home() {
   return (
@@ -43,8 +44,22 @@ function Home() {
                          If you're interested in learning more, check out my research page. </p>
                 </div>
             </div>
+
             <div class="spotlight-divider"></div>
             <div class="spotlight row-reverse">
+            <div class="image">
+                <img src={binary_cloud} alt="" />
+            </div>
+            <div class="content">
+                <h3>Coding</h3>
+                <br></br>
+                <p> In addition to research, I love tinkering with code. Through my projects, I aim to further explore my passion for computational genomics and also
+                    develop products to help those in my community.   </p>
+            </div>
+            </div>
+
+            <div class="spotlight-divider"></div>
+            <div class="spotlight">
             <div class="image">
                 <img src={earth_care} alt="" />
             </div>
@@ -57,8 +72,9 @@ function Home() {
                      Learn more: <a href="http://psci.princeton.edu" class="html5-link">psci.princeton.edu</a>  </p>
             </div>
             </div>
+
             <div class="spotlight-divider"></div>
-            <div class="spotlight">
+            <div class="spotlight row-reverse">
             <div class="image">
                 <img src={half_dome} alt="" />
             </div>
