@@ -101,7 +101,7 @@ html {
     }
     
     .sidenav a:hover {
-      color: black;
+      color: #d6d6d6;
     }
     
     .sidenav .closebtn {
@@ -118,7 +118,7 @@ html {
             display: none;
         }
         .link .bar {
-            width: 50%;
+            display: none;
         }
     }
     
