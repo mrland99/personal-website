@@ -108,6 +108,29 @@
     }
 }
 
+@media screen and (max-width: 575px) {
+    .header {
+        flex-direction: column-reverse;
+        height: 80%;
+        width: 80%;
+    }
+    
+    .header .text-container {
+        max-width: 100%;
+        width: 100%;
+        font-size: 18px;
+        padding: 32px;
+    }
+    .header .image {
+        width: 130px;
+        padding-top: 32px;
+    }
+    .header .image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* Spotlight */
 .spotlight-container {
     display: flex;
