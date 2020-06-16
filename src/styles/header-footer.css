@@ -6,7 +6,7 @@ html {
 }
 /* Top Navigation Bar */
     .topnav, .logo, .link {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Lato', sans-serif;
         text-decoration: none;
         line-height: 1.5em !important;
         border-bottom: none;
@@ -101,7 +101,7 @@ html {
     }
     
     .sidenav a:hover {
-      color: #f1f1f1;
+      color: black;
     }
     
     .sidenav .closebtn {
@@ -116,6 +116,9 @@ html {
     @media (max-width: 768px) {
         .link {
             display: none;
+        }
+        .link .bar {
+            width: 50%;
         }
     }
     

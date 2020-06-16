@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 1200px) {
     .header {
-        width: 80%;
+        width: 85%;
     }
 
     .header .text-container {
@@ -100,7 +100,7 @@
         padding: 32px;
     }
     .header .image {
-        width: 150px;
+        width: 175px;
         padding-top: 32px;
     }
     .header .image img {
