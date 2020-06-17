@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import './../styles/header-footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCameraRetro, faHome, faDna, faCode } from '@fortawesome/free-solid-svg-icons';
