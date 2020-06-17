@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 
 import Main from './components/Main';
@@ -11,11 +11,11 @@ function App() {
   
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Header />
         <Main />
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
