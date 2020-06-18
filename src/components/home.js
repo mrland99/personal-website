@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,6 +13,10 @@ import binary_cloud from '../images/binary_cloud.png';
 function Home() {
   return (
     <div className="Home">
+        <Helmet>
+            <title>Max Land's Website</title>
+            <meta name="description" content="Hello, I'm Max Land and this is my personal website. I'm currently a student at Princeton." />
+        </Helmet>
         <div class="header-container">
             <div class="header">
                 <div class="text-container">

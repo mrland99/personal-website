@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../styles/gallery.css';
 
 /* Portrait Images */
@@ -22,6 +23,10 @@ import richardson from '../images/gallery-images/richardson.jpg'
 function Gallery() {
   return (
     <div className="Gallery" class="gallery">
+        <Helmet>
+            <title>Max's Photos</title>
+            <meta name="description" content="Check out photos by Max Land. " />
+        </Helmet>
         <p class="heading"> Landscape Gallery</p>
         <div class="gallery-image-landscape">    
             <div class="img-box-landscape">

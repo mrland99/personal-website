@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +10,10 @@ function Research() {
 
   return (
     <div className="Projects">
+        <Helmet>
+            <title>Max's Research</title>
+            <meta name="description" content="Here are my research projects: Tissue Alignment via Optimal Transport and Determining Cancerous Regions in Breast Cancer Tissue. " />
+        </Helmet>
         <div class="spotlight-container">
             <div class="heading"> 
                 <h1>Research</h1>

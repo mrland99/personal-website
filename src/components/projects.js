@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +12,10 @@ function Projects() {
 
     return (
     <div className="Projects">
+        <Helmet>
+            <title>Max's Projects</title>
+            <meta name="description" content="Here are a list of my projects. EasyGov, Perturbseq, helix-sandbox, and Google Intern (Shoppping App notification center)." />
+        </Helmet>
         <div class="spotlight-container">
             <div class="heading"> 
                 <h1>Projects</h1>
