@@ -44,7 +44,7 @@ function Projects() {
                     <img  src={dnaCrypterImg} alt="dna-crypter" />
                 </div>
                 <div class="proj-content">
-                    <h3>dna-crypter <a href="#/dna-crypter" class="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                    <h3>dna-crypter <a href="https://mrland99.github.io/dna-crypter/" class="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                     <br></br>
                     <h4>Personal Project</h4>
                     <br></br>
