@@ -4,8 +4,6 @@ import './../styles/header-footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCameraRetro, faHome, faDna, faCode } from '@fortawesome/free-solid-svg-icons';
 
-
-
 function Header() {
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
