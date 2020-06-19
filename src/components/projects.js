@@ -7,6 +7,7 @@ import perturbseq from '../images/perturbseq.png';
 import EasyGov_logo from '../images/EasyGov_logo.png';
 import helix from '../images/helix.png';
 import google_shopping from '../images/google-shopping.jpg'
+import dnaCrypterImg from '../images/dna-crypter.png';
 
 function Projects() {
 
@@ -14,7 +15,7 @@ function Projects() {
     <div className="Projects">
         <Helmet>
             <title>Max's Projects</title>
-            <meta name="description" content="Here are a list of my projects. EasyGov, Perturbseq, helix-sandbox, and Google Intern (Shoppping App notification center)." />
+            <meta name="description" content="Here are a list of my projects. EasyGov, dna-crypter, Perturbseq, helix-sandbox, and Google Intern (Shoppping App notification center)." />
         </Helmet>
         <div class="spotlight-container">
             <div class="heading"> 
@@ -34,6 +35,21 @@ function Projects() {
                     <p>EasyGov was created to expedite the process of filling government forms, especially for non-native English speakers.
                         Users select an online form to fill out in their native language and can then download the official English version as a PDF with their
                         responses recorded.
+                    </p>
+                </div>
+            </div>
+
+            <div class="spotlight">
+                <div class="proj-image">
+                    <img  src={dnaCrypterImg} alt="dna-crypter" />
+                </div>
+                <div class="proj-content">
+                    <h3>dna-crypter <a href="#/dna-crypter" class="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                    <br></br>
+                    <h4>Personal Project</h4>
+                    <br></br>
+                    <p><b>dna-crypter</b> is a program that encodes ASCII text as a DNA sequence, and decodes vice versa. The source code is also available
+                        for other developers to easily implement their own encryption algorithms.
                     </p>
                 </div>
             </div>
@@ -60,7 +76,7 @@ function Projects() {
                 <div class="proj-content">
                     <h3>helix-sandbox <a href="https://github.com/mrland99/helix-sandbox" class="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                     <br></br>
-                    <h4>Personal Project, Spring 2020</h4>
+                    <h4>Personal Project</h4>
                     <br></br>
                     <p>Personal library of useful algorithms in computational biology (e.g. sequence aliginment). Each algorithm contains a demo along with the code.</p>
                 </div>
