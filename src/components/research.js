@@ -51,8 +51,8 @@ class Research extends Component {
                                 <h4>Raphael Lab, Spring 2020</h4>
                                 <br></br>
                                 <p>Developed two novel methods to distinguish between normal cells and cancer cells
-                                    without requiring prior characterization and establishment of gene expression profiles of varioustypes of cancer cells.  
-                                    Instead, these methods consider the entire transcriptome as a whole and use PCA and percent dropout to reduce our data
+                                    without needing prior characterization and establishment of gene expression profiles for the cancer cells.  
+                                    Instead, these methods consider the entire transcriptome as a whole and use PCA and percent dropout to reduce the data
                                     to one dimensional feature vectors.
                                 </p>
                             </div>
