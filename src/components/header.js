@@ -43,7 +43,7 @@ function Header() {
         </div>
 
         <div id="mySidenav" className="sidenav">
-          <a className="closebtn" onClick={closeNav}>&times;</a>
+          <button className="closebtn" onClick={closeNav}>&times;</button>
           <Link to="/" className="link">
               <div className="title"><FontAwesomeIcon icon={faHome}/> Home</div>
               <div className="bar"></div>
