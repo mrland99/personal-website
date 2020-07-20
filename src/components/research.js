@@ -34,8 +34,8 @@ class Research extends Component {
                                 <br></br>
                                 <h4>Raphael Lab, Summer 2020</h4>
                                 <br></br>
-                                <p>Currently developing a method based in Optimal Tranport Theory that utilizes both spatial and gene expression data in order to align
-                                    separate tissue layers.
+                                <p>Currently developing a method based in Optimal Tranport Theory that utilizes both spatial and gene expression data to align
+                                     tissue layers.
                                 </p>
                             </div>
                         </div>
