@@ -97,6 +97,7 @@
         width: 100%;
         font-size: 18px;
         padding: 32px;
+        margin: 0px;
     }
     .header .image {
         width: 175px;

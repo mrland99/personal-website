@@ -18,17 +18,17 @@ class Research extends Component {
                     <title>Max's Research</title>
                     <meta name="description" content="Here are my research projects: Tissue Alignment via Optimal Transport and Determining Cancerous Regions in Breast Cancer Tissue. " />
                 </Helmet>
-                <div class="spotlight-container">
-                    <div class="heading"> 
+                <div className="spotlight-container">
+                    <div className="heading"> 
                         <h1>Research</h1>
                     </div>
         
-                    <div class="spotlight-divider"></div>
-                        <div class="spotlight">
-                            <div class="proj-image">
+                    <div className="spotlight-divider"></div>
+                        <div className="spotlight">
+                            <div className="proj-image">
                                 <img  src={coming_soon} alt="EasyGov Logo" />
                             </div>
-                            <div class="proj-content">
+                            <div className="proj-content">
                                 <h3>Tissue Alignment via Optimal Transport
                                 </h3>
                                 <br></br>
@@ -39,12 +39,12 @@ class Research extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div class="spotlight">
-                            <div class="proj-image">
+                        <div className="spotlight">
+                            <div className="proj-image">
                                 <img  src={spatial} alt="Spatial Tissue" />
                             </div>
-                            <div class="proj-content">
-                                <h3>Determining Cancerous Regions in Breast Cancer Tissue <a href="https://github.com/mrland99/spatial-research" class="proj-link">
+                            <div className="proj-content">
+                                <h3>Determining Cancerous Regions in Breast Cancer Tissue <a href="https://github.com/mrland99/spatial-research" className="proj-link">
                                     <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                                 </h3>
                                 <br></br>

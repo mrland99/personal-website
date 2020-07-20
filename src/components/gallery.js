@@ -27,153 +27,153 @@ class Gallery extends Component {
     
     render() {
         return (
-            <div className="Gallery" class="gallery">
+            <div className="gallery">
                 <Helmet>
                     <title>Max's Photos</title>
                     <meta name="description" content="Check out photos by Max Land. " />
                 </Helmet>
-                <p class="heading"> Landscape Gallery</p>
-                <div class="gallery-image-landscape">    
-                    <div class="img-box-landscape">
+                <p className="heading"> Landscape Gallery</p>
+                <div className="gallery-image-landscape">    
+                    <div className="img-box-landscape">
                         <img src={maroon_bells} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Maroon Bells</p>
-                            <p class="opacity-low">Shot on GoPro HERO7 -- with Daniel Chae</p>
+                            <p className="opacity-low">Shot on GoPro HERO7 -- with Daniel Chae</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-landscape">
+                    <div className="img-box-landscape">
                         <img src={maroon_bells_trail} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Maroon Bells Trail</p>
-                            <p class="opacity-low">Shot on GoPro HERO7 -- with Daniel Chae</p>
+                            <p className="opacity-low">Shot on GoPro HERO7 -- with Daniel Chae</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-landscape">
+                    <div className="img-box-landscape">
                         <img src={glacier_point_sunset} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Glacier Point</p>
-                            <p class="opacity-low">Shot on Pixel -- with Brandy Chen</p>
+                            <p className="opacity-low">Shot on Pixel -- with Brandy Chen</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-landscape">
+                    <div className="img-box-landscape">
                         <img src={john_muirs_trail} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Half Dome</p>
-                            <p class="opacity-low">Shot on Pixel -- with Brandy Chen</p>
+                            <p className="opacity-low">Shot on Pixel -- with Brandy Chen</p>
                         </div>
                         </div>
                     </div>
                     
-                    <div class="img-box-landscape">
+                    <div className="img-box-landscape">
                         <img src={sur} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Bixby Creek Bridge</p>
-                            <p class="opacity-low">Shot on Pixel -- with Brandy Chen</p>
+                            <p className="opacity-low">Shot on Pixel -- with Brandy Chen</p>
                         </div>
                         </div>
                     </div>
                     
-                    <div class="img-box-landscape">
+                    <div className="img-box-landscape">
                         <img src={golden_gate2} alt="" />
-                        <div class="transparent-box-landscape">
-                        <div class="caption">
+                        <div className="transparent-box-landscape">
+                        <div className="caption">
                             <p>Golden Gate Bridge</p>
-                            <p class="opacity-low">Shot on Huawei P30 -- with Kate Land</p>
+                            <p className="opacity-low">Shot on Huawei P30 -- with Kate Land</p>
                         </div>
                         </div> 
                     </div>
            
                 </div>
          
-                <p class="heading"> Portrait Gallery</p>
-                <div class="gallery-image-portrait">  
-                    <div class="img-box-portrait">
+                <p className="heading"> Portrait Gallery</p>
+                <div className="gallery-image-portrait">  
+                    <div className="img-box-portrait">
                         <img src={golden_gate1} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Golden Gate Bridge</p>
-                            <p class="opacity-low">Shot on Huawei p30 -- with Kate Land</p>
+                            <p className="opacity-low">Shot on Huawei p30 -- with Kate Land</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={pale_swallowtail} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Pale Swallotail Butterfly</p>
-                            <p class="opacity-low">Shot on Huawei Mate 9</p>
+                            <p className="opacity-low">Shot on Huawei Mate 9</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={poe_field} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Poe Field</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={poe_field_blinds} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Poe Field</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={thomas_lab} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Thomas Lab</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={old_city} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>City</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={blair} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Blair</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>
                     
-                    <div class="img-box-portrait">
+                    <div className="img-box-portrait">
                         <img src={richardson} alt="" />
-                        <div class="transparent-box-portrait">
-                        <div class="caption">
+                        <div className="transparent-box-portrait">
+                        <div className="caption">
                             <p>Richardson Auditorium</p>
-                            <p class="opacity-low">Shot on Google Nexus 6</p>
+                            <p className="opacity-low">Shot on Google Nexus 6</p>
                         </div>
                         </div> 
                     </div>

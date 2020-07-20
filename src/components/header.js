@@ -15,50 +15,50 @@ function Header() {
 
   return (
     <div className="Header">
-      <div class="topnav">
-          <div class="logo">
+      <div className="topnav">
+          <div className="logo">
              Max Land
           </div>
-          <div class="menu">
-            <Link to="/" class="link">
-              <div class="title"><FontAwesomeIcon icon={faHome}/> Home</div>
-              <div class="bar"></div>
+          <div className="menu">
+            <Link to="/" className="link">
+              <div className="title"><FontAwesomeIcon icon={faHome}/> Home</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/Research" class="link">
-              <div class="title"><FontAwesomeIcon icon={faDna}/> Research</div>
-              <div class="bar"></div>
+            <Link to="/Research" className="link">
+              <div className="title"><FontAwesomeIcon icon={faDna}/> Research</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/projects" class="link">
-              <div class="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
-              <div class="bar"></div>
+            <Link to="/projects" className="link">
+              <div className="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/gallery" class="link">
-              <div class="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
-              <div class="bar"></div>
+            <Link to="/gallery" className="link">
+              <div className="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
+              <div className="bar"></div>
             </Link>
           </div>
-          <div class="sidenav-button" onClick={openNav}>
+          <div className="sidenav-button" onClick={openNav}>
               &#9776;
           </div>
         </div>
 
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
-          <Link to="/" class="link">
-              <div class="title"><FontAwesomeIcon icon={faHome}/> Home</div>
-              <div class="bar"></div>
+        <div id="mySidenav" className="sidenav">
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
+          <Link to="/" className="link">
+              <div className="title"><FontAwesomeIcon icon={faHome}/> Home</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/Research" class="link">
-              <div class="title"><FontAwesomeIcon icon={faDna}/> Research</div>
-              <div class="bar"></div>
+            <Link to="/Research" className="link">
+              <div className="title"><FontAwesomeIcon icon={faDna}/> Research</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/projects" class="link">
-              <div class="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
-              <div class="bar"></div>
+            <Link to="/projects" className="link">
+              <div className="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
+              <div className="bar"></div>
             </Link>
-            <Link to="/gallery" class="link">
-              <div class="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
-              <div class="bar"></div>
+            <Link to="/gallery" className="link">
+              <div className="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
+              <div className="bar"></div>
             </Link>
         </div>
     </div>

@@ -6,14 +6,14 @@ import { faFacebook, faInstagram, faGithub} from '@fortawesome/free-brands-svg-i
 function Footer() {
   return (
     <div className="Footer">
-      <div class="footer">
-		    <div class="footer-container">
-		        <div class="icon-container"> 
-		            <p> <a href="https://www.facebook.com/mrland99/" class="footer-link"><FontAwesomeIcon icon={faFacebook}/></a>&nbsp;&nbsp;&nbsp; 
-                    <a href="https://www.instagram.com/mrland99/" class="footer-link"><FontAwesomeIcon icon={faInstagram}/></a>&nbsp;&nbsp;&nbsp; 
-                    <a href="https://github.com/mrland99" class="footer-link"><FontAwesomeIcon icon={faGithub}/></a> </p> 
+      <div className="footer">
+		    <div className="footer-container">
+		        <div className="icon-container"> 
+		            <p> <a href="https://www.facebook.com/mrland99/" className="footer-link"><FontAwesomeIcon icon={faFacebook}/></a>&nbsp;&nbsp;&nbsp; 
+                    <a href="https://www.instagram.com/mrland99/" className="footer-link"><FontAwesomeIcon icon={faInstagram}/></a>&nbsp;&nbsp;&nbsp; 
+                    <a href="https://github.com/mrland99" className="footer-link"><FontAwesomeIcon icon={faGithub}/></a> </p> 
 		        </div>
-		        <div class="text-container">
+		        <div className="text-container">
 		            <p>&copy; Max Land 2020.</p>
 		        </div>
 		    </div>
