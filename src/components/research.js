@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import spatial from '../images/spatial.png';
 import coming_soon from '../images/coming_soon.png';
+import human_atlas from '../images/human_atlas.png';
 
 class Research extends Component {
     componentDidMount() {
