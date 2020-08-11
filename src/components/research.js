@@ -35,8 +35,7 @@ class Research extends Component {
                                 <br></br>
                                 <h4>Raphael Lab, Summer 2020</h4>
                                 <br></br>
-                                <p>Currently developing a method based in Optimal Tranport Theory that utilizes both spatial and gene expression data to align
-                                     tissue layers.
+                                <p>Developed a method based in optimal transport theory to align tissue layers from spatial transcriptomics data. Adapted the Fused Gromov-Wasserstein formulation to leverage both spatial and gene expression information. 
                                 </p>
                             </div>
                         </div>
