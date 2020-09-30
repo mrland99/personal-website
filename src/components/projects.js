@@ -8,6 +8,7 @@ import EasyGov_logo from '../images/EasyGov_logo.png';
 import helix from '../images/helix.png';
 import google_shopping from '../images/google-shopping.jpg'
 import dnaCrypterImg from '../images/dna-crypter.png';
+import protein_tda from '../images/protein_tda.png';
 
 class Projects extends Component {
     componentDidMount() {
@@ -34,11 +35,26 @@ class Projects extends Component {
                         <div className="proj-content">
                             <h3>EasyGov <a href="https://www.easygov.app/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
-                            <h4>Co-founder, Spring 2020 - Present</h4>
+                            <h4>Co-founder, VP Eng</h4>
                             <br></br>
                             <p>EasyGov was created to expedite the process of filling government forms, especially for non-native English speakers.
                                 Users select an online form to fill out in their native language and can then download the official English version as a PDF with their
                                 responses recorded.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="spotlight">
+                        <div className="proj-image">
+                            <img  src={protein_tda} alt="protein-tda" />
+                        </div>
+                        <div className="proj-content">
+                            <h3>protein-tda <a href="https://github.com/mrland99/protein-tda" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <br></br>
+                            <h4>Personal Project</h4>
+                            <br></br>
+                            <p>Used topological data analysis to classify Human Protein Atlas Images. Applied persistent homology and other algebraic topological analysis to generate features,
+                                which were trained on a Random Forest Classifier.
                             </p>
                         </div>
                     </div>
