@@ -53,7 +53,7 @@ class Projects extends Component {
                             <br></br>
                             <h4>Personal Project</h4>
                             <br></br>
-                            <p>Used topological data analysis to classify Human Protein Atlas Images. Applied persistent homology and other algebraic topological analysis to generate features,
+                            <p>Used topological data analysis to classify Human Protein Atlas Images. Applied persistent homology and other algebraic topological analysis to generate features
                                 which were trained on a Random Forest Classifier.
                             </p>
                         </div>

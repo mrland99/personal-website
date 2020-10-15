@@ -49,7 +49,7 @@ class Home extends Component {
                         <div className="content">
                             <h3>Research</h3>
                             <br></br>
-                            <p>My research interests lie in the intersection of math and biology. Currently, I'm working on developing novel
+                            <p>My research interests lie at the intersection of math and genomics. Currently, I'm working on developing novel
                                  computational methods to analyze spatial transcriptomics data. 
                                  If you're interested in learning more, check out my research <Link to="/research" className="html5-link">page</Link>. </p>
                         </div>
@@ -77,7 +77,7 @@ class Home extends Component {
                         <h3>Climate Action</h3>
                         <br></br>
                         <p>Global warming is happening. It affects us all. Let's all be a little more compassionate towards our home. 
-                            Personally, I'm the webmaster and leadership for Princeton Student Climate Initiative.
+                            Previously, I was the webmaster and leadership for Princeton Student Climate Initiative.
                              We are a student group that engages with climate-related issues. 
                              Learn more: <a href="http://psci.princeton.edu" className="html5-link">psci.princeton.edu</a>  </p>
                     </div>

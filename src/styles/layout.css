@@ -4,6 +4,20 @@
     padding: 0;
 }
 
+/* Spacer */
+.spacer {
+    height: 24px;
+}
+
+/* Publication box */
+.publication-box {
+    width: 55%;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 48px;
+    text-align: left;
+}
+
 /* Header */
 .header-container {
     display: flex;
@@ -138,6 +152,7 @@
     justify-content: center;
     align-items: center;
     max-width:100%;
+    padding: 24px;
     border: 1px solid #d6d6d6;
 }
 
@@ -232,6 +247,9 @@
     .spotlight .proj-content {
         font-size: 16px;
     }
+    .publication-box {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -270,6 +288,9 @@
     .spotlight .proj-content {
         max-width: 100%;
         padding: 0px 0px 16px 0px;
+    }
+    .publication-box {
+        width: 100%;
     }
 }
 

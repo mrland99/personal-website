@@ -20,7 +20,7 @@ class Research extends Component {
                 </Helmet>
                 <div className="spotlight-container">
                     <div className="heading"> 
-                        <h1>Research</h1>
+                        <h1>Current Research</h1>
                     </div>
         
                     <div className="spotlight-divider"></div>
@@ -54,6 +54,25 @@ class Research extends Component {
                             </p>
                         </div>
                     </div>
+                    <div className="heading"> 
+                        <h1>Publications</h1>
+                    </div>
+        
+                    <div className="spotlight-divider"></div>
+                    <div className="publication-box">
+                        <h3>STARCH: Copy number and clone inference from spatial transcriptomics data</h3>
+                        <p>Rebecca Elyanow, Ron Zeira, Max Land, Ben Raphael </p>
+                        <br></br>
+                        <p>Physical Biology: Special Issue (2020)</p>
+                    </div>
+                    <div className="publication-box">
+                        <h3>An Upper Bound on the Burning Number of Graphs</h3>
+                        <p>Max Land, Linyuan Lu</p>
+                        <br></br>
+                        <p>International Workshop on Algorithms and Models for the Web-Graph (2016)</p>
+                    </div>
+                    <div className="spacer"></div>
+                    <div className="spacer"></div>
                 </div>
             </div>
           );
