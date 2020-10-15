@@ -292,6 +292,9 @@
     .publication-box {
         width: 100%;
     }
+    .spotlight-divider {
+        width: 80%;
+    }
 }
 
 /* Links */
