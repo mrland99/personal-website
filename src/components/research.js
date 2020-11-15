@@ -29,12 +29,13 @@ class Research extends Component {
                             <img  src={coming_soon} alt="EasyGov Logo" />
                         </div>
                         <div className="proj-content">
-                            <h3>Tissue Alignment via Optimal Transport
+                            <h3>PASTE: Probabilistic Alignment of ST Experiments
                             </h3>
                             <br></br>
-                            <h4>Raphael Lab, Summer 2020</h4>
+                            <h4>Raphael Lab, 2020</h4>
                             <br></br>
-                            <p>Developed a method based in optimal transport theory to align tissue layers from spatial transcriptomics data. Adapted the Fused Gromov-Wasserstein formulation to leverage both spatial and gene expression information. 
+                            <p>Developed PASTE, a new computational method to align spots across adjacent spatial transcriptomics (ST) layers and integrate multiple ST replicates 
+                                by leveraging both transcriptional similarity and spatial distances between spots.
                             </p>
                         </div>
                     </div>
@@ -47,7 +48,7 @@ class Research extends Component {
                                 <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                             </h3>
                             <br></br>
-                            <h4>Raphael Lab, Spring 2020</h4>
+                            <h4>Raphael Lab, 2020</h4>
                             <br></br>
                             <p> Showed PCA and percent dropout are strong predictors for identifying tumor region in spatial transcriptomics data of breast cancer tissue.  
                                 Eliminated the need for prior characterization and establishment of gene expression profiles of specific cancer cell types.
