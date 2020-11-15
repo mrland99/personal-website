@@ -34,7 +34,7 @@ class Research extends Component {
                             <br></br>
                             <h4>Raphael Lab, 2020</h4>
                             <br></br>
-                            <p>Developed PASTE, a new computational method to align spots across adjacent spatial transcriptomics (ST) layers and integrate multiple ST replicates 
+                            <p>Developed a new computational method (PASTE) to align spots across adjacent spatial transcriptomics (ST) layers and integrate multiple ST replicates 
                                 by leveraging both transcriptional similarity and spatial distances between spots.
                             </p>
                         </div>
