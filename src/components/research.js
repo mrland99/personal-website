@@ -45,7 +45,7 @@ class Research extends Component {
                             <img  src={spatial} alt="Spatial Tissue" />
                         </div>
                         <div className="proj-content">
-                            <h3>Determining Cancerous Regions in Breast Cancer Tissue &nbsp;<a href="https://github.com/mrland99/spatial-research" className="proj-link">
+                            <h3>Determining Cancerous Regions in Breast Cancer Tissue &nbsp;<a href="https://github.com/mrland99/cancer-region-identifier" className="proj-link">
                                 <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                             </h3>
                             <br></br>
