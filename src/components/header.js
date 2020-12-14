@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './../styles/header-footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCameraRetro, faHome, faDna, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faDna, faCode } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   function openNav() {
@@ -32,10 +32,6 @@ function Header() {
               <div className="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
               <div className="bar"></div>
             </Link>
-            <Link to="/gallery" className="link">
-              <div className="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
-              <div className="bar"></div>
-            </Link>
           </div>
           <div className="sidenav-button" onClick={openNav}>
               &#9776;
@@ -54,10 +50,6 @@ function Header() {
             </Link>
             <Link to="/projects" className="link">
               <div className="title"><FontAwesomeIcon icon={faCode}/> Projects</div>
-              <div className="bar"></div>
-            </Link>
-            <Link to="/gallery" className="link">
-              <div className="title"><FontAwesomeIcon icon={faCameraRetro}/> Photo Gallery</div>
               <div className="bar"></div>
             </Link>
         </div>

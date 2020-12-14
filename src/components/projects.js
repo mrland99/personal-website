@@ -35,7 +35,7 @@ class Projects extends Component {
                         <div className="proj-content">
                             <h3>EasyGov <a href="https://www.easygov.app/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
-                            <h4>Co-founder, VP Eng</h4>
+                            <h4>Co-founder</h4>
                             <br></br>
                             <p>EasyGov was created to expedite the process of filling government forms, especially for non-native English speakers.
                                 Users select an online form to fill out in their native language and can then download the official English version as a PDF with their

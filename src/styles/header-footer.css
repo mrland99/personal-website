@@ -19,7 +19,8 @@ html {
     	 border-bottom: 1px solid black;
     	 border-top: 1px solid black;
     	 text-align: right;
-    	 position: relative;
+         position: relative;
+         padding: 0px 16px;
     }
      .topnav .logo {
     	 position: absolute;
