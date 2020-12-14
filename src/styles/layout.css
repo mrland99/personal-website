@@ -12,7 +12,7 @@
 /* Publication box */
 .publication-box {
     width: 60%;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     padding: 48px;
     text-align: left;
@@ -76,7 +76,7 @@
     text-align: center;
     cursor: pointer;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 25px;
     border: 1px solid white;
 }
@@ -212,7 +212,7 @@
     display: block;
     max-width: 70%;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .spotlight .proj-content {
@@ -221,7 +221,7 @@
     display: block;
     max-width: 70%;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .spotlight .proj-content h4 {
