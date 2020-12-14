@@ -33,7 +33,7 @@ class Projects extends Component {
                             <img  src={EasyGov_logo} alt="EasyGov Logo" />
                         </div>
                         <div className="proj-content">
-                            <h3>EasyGov <a href="https://www.easygov.app/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>EasyGov &nbsp;<a href="https://www.easygov.app/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Co-founder</h4>
                             <br></br>
@@ -49,7 +49,7 @@ class Projects extends Component {
                             <img  src={protein_tda} alt="protein-tda" />
                         </div>
                         <div className="proj-content">
-                            <h3>protein-tda <a href="https://github.com/mrland99/protein-tda" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>protein-tda &nbsp;<a href="https://github.com/mrland99/protein-tda" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
                             <br></br>
@@ -64,7 +64,7 @@ class Projects extends Component {
                             <img  src={dnaCrypterImg} alt="dna-crypter" />
                         </div>
                         <div className="proj-content">
-                            <h3>dna-crypter <a href="https://mrland99.github.io/dna-crypter/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>dna-crypter &nbsp;<a href="https://mrland99.github.io/dna-crypter/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
                             <br></br>
@@ -79,7 +79,7 @@ class Projects extends Component {
                             <img  src={perturbseq} alt="Perturbseq" />
                         </div>
                         <div className="proj-content">
-                            <h3>Perturbseq <a href="https://github.com/mrland99/Perturbseq" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>Perturbseq &nbsp;<a href="https://github.com/mrland99/Perturbseq" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>QCB 455: Computational Biology, Fall 2019</h4>
                             <br></br>
@@ -94,7 +94,7 @@ class Projects extends Component {
                             <img src={helix} alt="DNA helix" />
                         </div>
                         <div className="proj-content">
-                            <h3>helix-sandbox <a href="https://github.com/mrland99/helix-sandbox" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>helix-sandbox &nbsp;<a href="https://github.com/mrland99/helix-sandbox" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
                             <br></br>

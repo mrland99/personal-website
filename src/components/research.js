@@ -26,7 +26,7 @@ class Research extends Component {
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
                         <div className="proj-image">
-                            <img  src={coming_soon} alt="EasyGov Logo" />
+                            <img  src={coming_soon} alt="Coming Soon" />
                         </div>
                         <div className="proj-content">
                             <h3>PASTE: Probabilistic Alignment of ST Experiments
@@ -44,7 +44,7 @@ class Research extends Component {
                             <img  src={spatial} alt="Spatial Tissue" />
                         </div>
                         <div className="proj-content">
-                            <h3>Determining Cancerous Regions in Breast Cancer Tissue <a href="https://github.com/mrland99/spatial-research" className="proj-link">
+                            <h3>Determining Cancerous Regions in Breast Cancer Tissue &nbsp;<a href="https://github.com/mrland99/spatial-research" className="proj-link">
                                 <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                             </h3>
                             <br></br>
