@@ -76,10 +76,10 @@ class Projects extends Component {
         
                     <div className="spotlight">
                         <div className="proj-image">
-                            <img  src={perturbseq} alt="Perturbseq" />
+                            <img  src={perturbseq} alt="perturbseq-analysis" />
                         </div>
                         <div className="proj-content">
-                            <h3>Perturbseq &nbsp;<a href="https://github.com/mrland99/Perturbseq" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
+                            <h3>perturbseq-analysis &nbsp;<a href="https://github.com/mrland99/perturbseq-analysis" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>QCB 455: Computational Biology, Fall 2019</h4>
                             <br></br>
