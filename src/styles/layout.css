@@ -116,6 +116,7 @@
     .header .image {
         width: 175px;
         padding-top: 32px;
+        height: 300px;
     }
     .header .image img {
         width: 100%;
@@ -141,7 +142,6 @@
     }
     .header .image img {
         width: 100%;
-        height: auto;
     }
 }
 
