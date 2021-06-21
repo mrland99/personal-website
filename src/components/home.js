@@ -4,7 +4,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import earth_care from '../images/earth_care.jpg';
 import spatial from '../images/spatial.png';
 import half_dome from '../images/half_dome.jpg';
 import profile_pic from '../images/profile_long.jpg';
@@ -20,14 +19,14 @@ class Home extends Component {
             <div className="Home">
                 <Helmet>
                     <title>Max Land's Website</title>
-                    <meta name="description" content="Hello, I'm Max Land and this is my personal website. I'm currently a student at Princeton." />
+                    <meta name="description" content="Hello, I'm Max Land and this is my personal website. I'm currently a computational biologist at Memorial Sloan Kettering Cancer Center." />
                 </Helmet>
                 <div className="header-container">
                     <div className="header">
                         <div className="text-container">
-                            <h1>Hello.</h1>
+                            <h1>Hello, I'm Max.</h1>
                             <br></br>
-                            <p>I'm Max and I'm currently a senior studying math at Princeton. </p>
+                            <p>I'm currently a computational biologist at Memorial Sloan Kettering Cancer Center. </p>
                             <br></br>
                             <Link to="#one"><button><FontAwesomeIcon icon={faChevronDown}/> Learn more</button></Link>
                         </div>
@@ -39,61 +38,47 @@ class Home extends Component {
         
                 <div id="one" className="spotlight-container">
                     <div className="heading"> 
-                        <h1>Here are some of my interests:</h1>
+                        <h1>About Me:</h1>
                     </div>
+
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
+                        <div className="image">
+                            <img src={binary_cloud} alt="" />
+                        </div>
+                        <div className="content">
+                            <h3>Background</h3>
+                            <br></br>
+                            <p>I studied math and computer science at Princeton. During my time there, I conducted computational genomics
+                                 research under Ben Raphael. I also previously interned as software engineer at Google. </p>
+                        </div>
+                    </div>
+
+                  
+
+                    <div className="spotlight-divider"></div>
+                    <div className="spotlight row-reverse">
                         <div className="image">
                             <img src={spatial} alt="" />
                         </div>
                         <div className="content">
                             <h3>Research</h3>
                             <br></br>
-                            <p>My research interests lie at the intersection of math and genomics. Currently, I'm working on developing novel
-                                 computational methods to analyze spatial transcriptomics data. 
+                            <p>My research interests lie at the intersection of math and genomics. I enjoy developing algorithms to analyze large-scale genomic datasets. 
                                  If you're interested in learning more, check out my research <Link to="/research" className="html5-link">page</Link>. </p>
                         </div>
                     </div>
         
                     <div className="spotlight-divider"></div>
-                    <div className="spotlight row-reverse">
-                    <div className="image">
-                        <img src={binary_cloud} alt="" />
-                    </div>
-                    <div className="content">
-                        <h3>Coding</h3>
-                        <br></br>
-                        <p> In addition to research, I love tinkering with code. Through my projects, I aim to further explore my passion for computational genomics and also
-                            develop products to help those in my community. Take a look <Link to="/projects" className="html5-link">here</Link>!   </p>
-                    </div>
-                    </div>
-        
-                    <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                    <div className="image">
-                        <img src={earth_care} alt="" />
-                    </div>
-                    <div className="content">
-                        <h3>Climate Action</h3>
-                        <br></br>
-                        <p>Global warming is happening. It affects us all. Let's all be a little more compassionate towards our home. 
-                            Previously, I was the webmaster and leadership for Princeton Student Climate Initiative.
-                             We are a student group that engages with climate-related issues. 
-                             Learn more: <a href="http://psci.princeton.edu" className="html5-link">psci.princeton.edu</a>  </p>
-                    </div>
-                    </div>
-        
-                    <div className="spotlight-divider"></div>
-                    <div className="spotlight row-reverse">
                     <div className="image">
                         <img src={half_dome} alt="" />
                     </div>
                     <div className="content">
-                        <h3>Photography</h3>
+                        <h3>Other</h3>
                         <br></br>
-                        <p>I'm an avid hiker. I love the mountains. Favorite National Parks: Yosemite, Rocky Mountain.
-                             Through my adventures, I've developed an interest in photography. 
-                             Check out some of my photos in my <Link to="/gallery" className="html5-link">gallery</Link>! </p>
+                        <p>I hike and code in my free time. Check out some of my photos in my <Link to="/gallery" className="html5-link">gallery</Link>, or
+                        look through my past projects <Link to="/projects" className="html5-link">here</Link>.  </p>
                     </div>
                     </div>
                 </div>

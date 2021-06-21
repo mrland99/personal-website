@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet';
 import '../styles/layout.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
-import spatial from '../images/spatial.png';
 import coming_soon from '../images/coming_soon.png';
+import msk_logo from '../images/msk_logo.jpg'
 
 class Research extends Component {
     componentDidMount() {
@@ -22,6 +22,25 @@ class Research extends Component {
                     <div className="heading"> 
                         <h1>Current Research</h1>
                     </div>
+                   
+                    <div className="spotlight-divider"></div>
+                    <div className="spotlight">
+                        <div className="proj-image">
+                            <img  src={msk_logo} alt="Coming Soon" />
+                        </div>
+                        <div className="proj-content">
+                            <h3>Cancer Genomics</h3>
+                            <br></br>
+                            <h4>Pe'er Lab, 2021 - present</h4>
+                            <br></br>
+                            <p>Currently conducting research with Dana Pe'er as part of the Single Cell Research Initiative at 
+                                Memorial Sloan Kettering Cancer Center.</p>
+                        </div>
+                    </div>
+                    
+                    <div className="heading"> 
+                        <h1>Highlighted Research</h1>
+                    </div>
         
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
@@ -33,26 +52,10 @@ class Research extends Component {
                                 <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                             </h3>
                             <br></br>
-                            <h4>Raphael Lab, 2020</h4>
+                            <h4>Raphael Lab, 2020 - 2021</h4>
                             <br></br>
                             <p>Developed a new computational method (PASTE) to align spots across adjacent spatial transcriptomics (ST) layers and integrate multiple ST replicates 
                                 by leveraging both transcriptional similarity and spatial distances between spots.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="spotlight">
-                        <div className="proj-image">
-                            <img  src={spatial} alt="Spatial Tissue" />
-                        </div>
-                        <div className="proj-content">
-                            <h3>Determining Cancerous Regions in Breast Cancer Tissue &nbsp;<a href="https://github.com/mrland99/cancer-region-identifier" className="proj-link">
-                                <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
-                            </h3>
-                            <br></br>
-                            <h4>Raphael Lab, 2020</h4>
-                            <br></br>
-                            <p> Showed PCA and percent dropout are strong predictors for identifying tumor region in spatial transcriptomics data of breast cancer tissue.  
-                                Eliminated the need for prior characterization and establishment of gene expression profiles of specific cancer cell types.
                             </p>
                         </div>
                     </div>
@@ -62,7 +65,13 @@ class Research extends Component {
         
                     <div className="spotlight-divider"></div>
                     <div className="publication-box">
-                        <h3>STARCH: Copy number and clone inference from spatial transcriptomics data</h3>
+                        <h3>Alignment and Integration of Spatial Transcriptomics Data</h3>
+                        <p>Ron Zeira*, Max Land*, Ben Raphael </p>
+                        <br></br>
+                        <p>RECOMB (2021)</p>
+                    </div>
+                    <div className="publication-box">
+                        <h3>STARCH: Copy Number and Clone Inference from Spatial Transcriptomics Data</h3>
                         <p>Rebecca Elyanow, Ron Zeira, Max Land, Ben Raphael </p>
                         <br></br>
                         <p>Physical Biology: Special Issue (2020)</p>
