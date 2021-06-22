@@ -105,25 +105,16 @@
     padding: 3px;
     border: 1px solid #d6d6d6;
     margin: 32px 0px 32px 0px;
+    max-width: 80%;
+    width: 80%;
+}
+
+.circle-image img {
     border-radius: 50%;
-    max-width: 80%;
-    width: 80%;
 }
 
-.spotlight .proj-image {
-    flex: 1;
-    float: left;
-    display: block;
-    max-width: 300px;
-}
-
-.spotlight .proj-image img {
-    padding: 3px;
-    border: 1px solid #d6d6d6;
-    margin: 32px 0px 32px 0px;
+.square-image img {
     border-radius: 20%;
-    max-width: 80%;
-    width: 80%;
 }
 
 .spotlight .spotlight-content {
@@ -184,18 +175,7 @@
         width: 80%;
         margin-bottom: 0px;
     }
-
-    .spotlight .proj-image {
-        max-width: 100%;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 32px;
-    }
-    .spotlight .proj-image img {
-        max-width: 80%;
-        width: 80%;
-        margin-bottom: 0px;
-    }
+    
     .spotlight .spotlight-content {
         max-width: 100%;
         padding: 0px 0px 16px 0px;

@@ -23,8 +23,8 @@ class Home extends Component {
                 </Helmet>
                 <div className="header-container">
                     <div className="spotlight row-reverse">
-                        <div className="proj-image">
-                            <img  src={profile_pic} alt="protein-tda" />
+                        <div className="image square-image">
+                            <img  src={profile_pic} alt="profile pic" />
                         </div>
                         <div className="spotlight-content font24 text-center">
                             <h3>Hello, I'm Max. </h3>
@@ -43,8 +43,8 @@ class Home extends Component {
 
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                        <div className="image">
-                            <img src={binary_cloud} alt="" />
+                        <div className="image circle-image">
+                            <img src={binary_cloud} alt="binary cloud" />
                         </div>
                         <div className="spotlight-content font18">
                             <h3>Background</h3>
@@ -58,7 +58,7 @@ class Home extends Component {
 
                     <div className="spotlight-divider"></div>
                     <div className="spotlight row-reverse">
-                        <div className="image">
+                        <div className="image circle-image">
                             <img src={spatial} alt="" />
                         </div>
                         <div className="spotlight-content font18">
@@ -71,7 +71,7 @@ class Home extends Component {
         
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                    <div className="image">
+                    <div className="image circle-image">
                         <img src={half_dome} alt="" />
                     </div>
                     <div className="spotlight-content font18">

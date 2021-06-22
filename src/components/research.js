@@ -25,7 +25,7 @@ class Research extends Component {
                    
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={msk_logo} alt="Coming Soon" />
                         </div>
                         <div className="spotlight-content font18">
@@ -44,7 +44,7 @@ class Research extends Component {
         
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={coming_soon} alt="Coming Soon" />
                         </div>
                         <div className="spotlight-content font18">

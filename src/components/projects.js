@@ -29,7 +29,7 @@ class Projects extends Component {
 
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={protein_tda} alt="protein-tda" />
                         </div>
                         <div className="spotlight-content font18">
@@ -44,7 +44,7 @@ class Projects extends Component {
                     </div>
         
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={dnaCrypterImg} alt="dna-crypter" />
                         </div>
                         <div className="spotlight-content font18">
@@ -59,7 +59,7 @@ class Projects extends Component {
                     </div>
         
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={perturbseq} alt="perturbseq-analysis" />
                         </div>
                         <div className="spotlight-content font18">
@@ -74,7 +74,7 @@ class Projects extends Component {
                     </div>
                 
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img src={helix} alt="DNA helix" />
                         </div>
                         <div className="spotlight-content font18">
@@ -87,7 +87,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img  src={EasyGov_logo} alt="EasyGov Logo" />
                         </div>
                         <div className="spotlight-content font18">
@@ -103,7 +103,7 @@ class Projects extends Component {
                     </div>
         
                     <div className="spotlight">
-                        <div className="proj-image">
+                        <div className="image square-image">
                             <img src={google_shopping} alt="Google Shopping" />
                         </div>
                         <div className="spotlight-content font18">
