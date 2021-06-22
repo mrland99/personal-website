@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import spatial from '../images/spatial.png';
 import half_dome from '../images/half_dome.jpg';
-import profile_pic from '../images/profile_long.jpg';
+import profile_pic from '../images/profile.jpg';
 import binary_cloud from '../images/binary_cloud.png';
 
 class Home extends Component {
@@ -22,16 +22,16 @@ class Home extends Component {
                     <meta name="description" content="Hello, I'm Max Land and this is my personal website. I'm currently a computational biologist at Memorial Sloan Kettering Cancer Center." />
                 </Helmet>
                 <div className="header-container">
-                    <div className="header">
-                        <div className="text-container">
-                            <h1>Hello, I'm Max.</h1>
+                    <div className="spotlight row-reverse">
+                        <div className="proj-image">
+                            <img  src={profile_pic} alt="protein-tda" />
+                        </div>
+                        <div className="intro-content">
+                            <h3>Hello, I'm Max. </h3>
                             <br></br>
                             <p>I'm currently a computational biologist at Memorial Sloan Kettering Cancer Center. </p>
                             <br></br>
-                            <Link to="#one"><button><FontAwesomeIcon icon={faChevronDown}/> Learn more</button></Link>
-                        </div>
-                        <div className="image">
-                            <img src={profile_pic} alt="" />
+                            <Link className="learn-more-button" to="#one"><button><FontAwesomeIcon icon={faChevronDown}/> Learn more</button></Link>
                         </div>
                     </div>
                 </div>
