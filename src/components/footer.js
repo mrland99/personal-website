@@ -14,7 +14,7 @@ function Footer() {
                     <a href="https://github.com/mrland99" className="footer-link"><FontAwesomeIcon icon={faGithub}/></a> </p> 
 		        </div>
 		        <div className="text-container">
-		            <p>&copy; Max Land 2020.</p>
+		            <p>&copy; Max Land 2021.</p>
 		        </div>
 		    </div>
 		</div>
