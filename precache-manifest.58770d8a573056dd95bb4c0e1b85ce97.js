@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d0e965917e725ba80e21e392375fa30",
+    "revision": "9c21fa93139a0daaa458dca4c95ab0ba",
     "url": "/index.html"
   },
   {
-    "revision": "50067120a909c19d918d",
-    "url": "/static/css/main.052296d5.chunk.css"
+    "revision": "9fcb4e6f71e6e32d1465",
+    "url": "/static/css/main.4c100900.chunk.css"
   },
   {
     "revision": "fb1b24df51d1216d5dd9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f0a89ecb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50067120a909c19d918d",
-    "url": "/static/js/main.0d026500.chunk.js"
+    "revision": "9fcb4e6f71e6e32d1465",
+    "url": "/static/js/main.9a63af2c.chunk.js"
   },
   {
     "revision": "4ac598fa20d7619937c8",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/poe_field_blinds.6b982cdc.jpg"
   },
   {
-    "revision": "d38375cc3f2a50846478b3e2d7008743",
-    "url": "/static/media/profile_long.d38375cc.jpg"
+    "revision": "3560ac889084ba9ef1100582df759167",
+    "url": "/static/media/profile.3560ac88.jpg"
   },
   {
     "revision": "95957d882973b33acfc10186e6c1e2fc",
