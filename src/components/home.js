@@ -26,7 +26,7 @@ class Home extends Component {
                         <div className="proj-image">
                             <img  src={profile_pic} alt="protein-tda" />
                         </div>
-                        <div className="intro-content">
+                        <div className="spotlight-content font24 text-center">
                             <h3>Hello, I'm Max. </h3>
                             <br></br>
                             <p>I'm currently a computational biologist at Memorial Sloan Kettering Cancer Center. </p>
@@ -46,7 +46,7 @@ class Home extends Component {
                         <div className="image">
                             <img src={binary_cloud} alt="" />
                         </div>
-                        <div className="content">
+                        <div className="spotlight-content font18">
                             <h3>Background</h3>
                             <br></br>
                             <p>I studied math and computer science at Princeton. During my time there, I conducted computational genomics
@@ -61,7 +61,7 @@ class Home extends Component {
                         <div className="image">
                             <img src={spatial} alt="" />
                         </div>
-                        <div className="content">
+                        <div className="spotlight-content font18">
                             <h3>Research</h3>
                             <br></br>
                             <p>My research interests lie at the intersection of math and genomics. I enjoy developing algorithms to analyze large-scale genomic datasets. 
@@ -74,7 +74,7 @@ class Home extends Component {
                     <div className="image">
                         <img src={half_dome} alt="" />
                     </div>
-                    <div className="content">
+                    <div className="spotlight-content font18">
                         <h3>Other</h3>
                         <br></br>
                         <p>I hike and code in my free time. Check out some of my photos in my <Link to="/gallery" className="html5-link">gallery</Link>, or

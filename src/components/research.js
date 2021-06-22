@@ -28,7 +28,7 @@ class Research extends Component {
                         <div className="proj-image">
                             <img  src={msk_logo} alt="Coming Soon" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>Cancer Genomics</h3>
                             <br></br>
                             <h4>Pe'er Lab, 2021 - present</h4>
@@ -47,7 +47,7 @@ class Research extends Component {
                         <div className="proj-image">
                             <img  src={coming_soon} alt="Coming Soon" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>PASTE: Probabilistic Alignment of ST Experiments &nbsp;<a href="https://github.com/raphael-group/paste" className="proj-link">
                                 <FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                             </h3>

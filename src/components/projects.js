@@ -32,7 +32,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img  src={protein_tda} alt="protein-tda" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>protein-tda &nbsp;<a href="https://github.com/mrland99/protein-tda" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
@@ -47,7 +47,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img  src={dnaCrypterImg} alt="dna-crypter" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>dna-crypter &nbsp;<a href="https://mrland99.github.io/dna-crypter/" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
@@ -62,7 +62,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img  src={perturbseq} alt="perturbseq-analysis" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>perturbseq-analysis &nbsp;<a href="https://github.com/mrland99/perturbseq-analysis" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
@@ -77,7 +77,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img src={helix} alt="DNA helix" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>helix-sandbox &nbsp;<a href="https://github.com/mrland99/helix-sandbox" className="proj-link"><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a></h3>
                             <br></br>
                             <h4>Personal Project</h4>
@@ -90,7 +90,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img  src={EasyGov_logo} alt="EasyGov Logo" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>EasyGov</h3>
                             <br></br>
                             <h4>Software Engineer</h4>
@@ -106,7 +106,7 @@ class Projects extends Component {
                         <div className="proj-image">
                             <img src={google_shopping} alt="Google Shopping" />
                         </div>
-                        <div className="proj-content">
+                        <div className="spotlight-content font18">
                             <h3>Notification Center</h3>
                             <br></br>
                             <h4>Google Intern, Summer 2019</h4>
