@@ -26,24 +26,8 @@ class Projects extends Component {
                     <div className="heading"> 
                         <h1>Projects</h1>
                     </div>
-        
-                    <div className="spotlight-divider"></div>
-                    <div className="spotlight">
-                        <div className="proj-image">
-                            <img  src={EasyGov_logo} alt="EasyGov Logo" />
-                        </div>
-                        <div className="proj-content">
-                            <h3>EasyGov</h3>
-                            <br></br>
-                            <h4>Software Engineer</h4>
-                            <br></br>
-                            <p>EasyGov was created to expedite the process of filling government forms, especially for non-native English speakers.
-                                Users select an online form to fill out in their native language and can then download the official English version as a PDF with their
-                                responses recorded.
-                            </p>
-                        </div>
-                    </div>
 
+                    <div className="spotlight-divider"></div>
                     <div className="spotlight">
                         <div className="proj-image">
                             <img  src={protein_tda} alt="protein-tda" />
@@ -99,6 +83,22 @@ class Projects extends Component {
                             <h4>Personal Project</h4>
                             <br></br>
                             <p>Personal library of useful algorithms in computational biology (e.g. sequence aliginment). Each algorithm contains a demo along with the code.</p>
+                        </div>
+                    </div>
+
+                    <div className="spotlight">
+                        <div className="proj-image">
+                            <img  src={EasyGov_logo} alt="EasyGov Logo" />
+                        </div>
+                        <div className="proj-content">
+                            <h3>EasyGov</h3>
+                            <br></br>
+                            <h4>Software Engineer</h4>
+                            <br></br>
+                            <p>EasyGov was created to expedite the process of filling government forms, especially for non-native English speakers.
+                                Users select an online form to fill out in their native language and can then download the official English version as a PDF with their
+                                responses recorded.
+                            </p>
                         </div>
                     </div>
         

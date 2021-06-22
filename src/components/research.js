@@ -62,8 +62,12 @@ class Research extends Component {
                     <div className="heading"> 
                         <h1>Publications</h1>
                     </div>
-        
+
                     <div className="spotlight-divider"></div>
+                    <div className="publication-box">
+                        <p>(*) denotes equal contribution. </p>
+                    </div>
+
                     <div className="publication-box">
                         <h3>Alignment and Integration of Spatial Transcriptomics Data</h3>
                         <p>Ron Zeira*, Max Land*, Ben Raphael </p>
