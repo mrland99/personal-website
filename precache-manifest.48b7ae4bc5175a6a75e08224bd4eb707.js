@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "528ef5e684109c3813b79c58a7e2e8a0",
+    "revision": "00248dcd4d20571c308a640efdadedcd",
     "url": "/index.html"
   },
   {
-    "revision": "51edd3bd6a66f669a088",
+    "revision": "5233946b75115bfe9c85",
     "url": "/static/css/main.ac244270.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f0a89ecb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51edd3bd6a66f669a088",
-    "url": "/static/js/main.6d7dc929.chunk.js"
+    "revision": "5233946b75115bfe9c85",
+    "url": "/static/js/main.0b1b4f9b.chunk.js"
   },
   {
     "revision": "4ac598fa20d7619937c8",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "120a9b678afb25c1e24b3f61cdfaa973",
     "url": "/static/media/pale_swallowtail.120a9b67.jpg"
+  },
+  {
+    "revision": "c56a1ce1509c1587c643c5247aa4cde5",
+    "url": "/static/media/paste_fig.c56a1ce1.jpg"
   },
   {
     "revision": "c1336f053ce619de2d17468511a1ac0d",
