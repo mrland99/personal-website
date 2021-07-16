@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import coming_soon from '../images/coming_soon.png';
 import msk_logo from '../images/msk_logo.jpg'
+import paste_fig from '../images/paste_fig.jpg'
 
 class Research extends Component {
     componentDidMount() {
@@ -31,9 +32,9 @@ class Research extends Component {
                         <div className="spotlight-content font18">
                             <h3>Cancer Genomics</h3>
                             <br></br>
-                            <h4>Pe'er Lab, 2021 - present</h4>
+                            <h4>SCRI, 2021 - present</h4>
                             <br></br>
-                            <p>Currently conducting research with Dana Pe'er as part of the Single Cell Research Initiative at 
+                            <p>Currently conducting research in the Single Cell Research Initiative under Dana Pe'er at 
                                 Memorial Sloan Kettering Cancer Center.</p>
                         </div>
                     </div>
@@ -45,7 +46,7 @@ class Research extends Component {
                     <div className="spotlight-divider"></div>
                     <div className="spotlight">
                         <div className="image square-image">
-                            <img  src={coming_soon} alt="Coming Soon" />
+                            <img  src={paste_fig} alt="Paste Fig" />
                         </div>
                         <div className="spotlight-content font18">
                             <h3>PASTE: Probabilistic Alignment of ST Experiments &nbsp;<a href="https://github.com/raphael-group/paste" className="proj-link">
