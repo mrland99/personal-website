@@ -54,9 +54,11 @@ class Research extends Component {
                             <br></br>
                             <h4>Raphael Lab, 2020 - 2021</h4>
                             <br></br>
-                            <p>Developed a new computational method (PASTE) to align spots across adjacent spatial transcriptomics (ST) layers and integrate multiple ST replicates 
+                            <p>Developed a new computational method (PASTE) to align spots across adjacent spatial transcriptomics (ST) slices and integrate multiple ST replicates 
                                 by leveraging both transcriptional similarity and spatial distances between spots.
                             </p>
+                            <br></br>
+                            <img className= "pepy-button" src= "https://static.pepy.tech/personalized-badge/paste-bio?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads"></img>
                         </div>
                     </div>
                     <div className="heading"> 
