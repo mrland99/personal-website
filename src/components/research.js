@@ -58,7 +58,7 @@ class Research extends Component {
                                 by leveraging both transcriptional similarity and spatial distances between spots.
                             </p>
                             <br></br>
-                            <img className= "pepy-button" src= "https://static.pepy.tech/personalized-badge/paste-bio?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads"></img>
+                            <img alt="paste downloads" className= "pepy-button" src= "https://static.pepy.tech/personalized-badge/paste-bio?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads"></img>
                         </div>
                     </div>
                     <div className="heading"> 
