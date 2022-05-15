@@ -21,6 +21,23 @@ class Research extends Component {
                 </Helmet>
                 <div className="spotlight-container">
                     <div className="heading"> 
+                        <h1>Overview</h1>
+                    </div>
+                    <div className="spotlight-divider"></div>
+
+                    <div className="text-box font18 text-center">
+                            <br></br>
+                            <p>I'm broadly interested in developing computational methods for single-cell analysis, particularly for 
+                                spatial transcriptomics and other multiome datasets (ATAC + RNA). In terms of approach,
+                                I'm interested in utilizing ideas from graph theory and deep learning to develop graph-based approaches that
+                                can utilize the underlying graph structures omnipresent in genomic data such as spatial information, gene regulatory networks, 
+                                and cell trajectories. 
+                            </p>
+                            <br></br>
+                    </div>
+
+
+                    <div className="heading"> 
                         <h1>Current Research</h1>
                     </div>
                    
@@ -34,8 +51,8 @@ class Research extends Component {
                             <br></br>
                             <h4>SCRI, 2021 - present</h4>
                             <br></br>
-                            <p>Currently conducting research in the Single Cell Research Initiative under Dana Pe'er at 
-                                Memorial Sloan Kettering Cancer Center.</p>
+                            <p>Currently conducting research in the Single-cell Analysis Innovation Lab under Dana Pe'er. In addition, 
+                                help develop and maintain data-processing pipelines that are used by the greater MSKCC research community. </p>
                         </div>
                     </div>
                     
@@ -55,7 +72,7 @@ class Research extends Component {
                             <br></br>
                             <h4>Raphael Lab, 2020 - 2021</h4>
                             <br></br>
-                            <p>Developed a new computational method (PASTE) to align spots across adjacent spatial transcriptomics (ST) slices and integrate multiple ST replicates 
+                            <p>Developed an optimal transport based computational method to align spots across adjacent spatial transcriptomics (ST) slices and integrate multiple ST replicates 
                                 by leveraging both transcriptional similarity and spatial distances between spots.
                             </p>
                             <br></br>
@@ -73,9 +90,9 @@ class Research extends Component {
 
                     <div className="publication-box">
                         <h3>Alignment and Integration of Spatial Transcriptomics Data</h3>
-                        <p>Ron Zeira*, Max Land*, Ben Raphael </p>
+                        <p>Ron Zeira*, Max Land*, Alexander Strzalkowski, Ben Raphael </p>
                         <br></br>
-                        <p>RECOMB (2021)</p>
+                        <p>Nature Methods (2022), RECOMB (2021)</p>
                     </div>
                     <div className="publication-box">
                         <h3>STARCH: Copy Number and Clone Inference from Spatial Transcriptomics Data</h3>

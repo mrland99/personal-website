@@ -23,6 +23,11 @@
     font-size: 18px;
 }
 
+/* Text Box */
+.text-box {
+    max-width: 70%;
+    font-weight: 400;
+}
 /* Publication box */
 .publication-box {
     width: 60%;

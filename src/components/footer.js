@@ -10,7 +10,6 @@ function Footer() {
 		    <div className="footer-container">
 		        <div className="icon-container"> 
 		            <p> <a href="https://twitter.com/mrland99" className="footer-link"><FontAwesomeIcon icon={faTwitter}/></a>&nbsp;&nbsp;&nbsp; 
-                    <a href="https://www.instagram.com/mrland99/" className="footer-link"><FontAwesomeIcon icon={faInstagram}/></a>&nbsp;&nbsp;&nbsp; 
                     <a href="https://github.com/mrland99" className="footer-link"><FontAwesomeIcon icon={faGithub}/></a> </p> 
 		        </div>
 		        <div className="text-container">

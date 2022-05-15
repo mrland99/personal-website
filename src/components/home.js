@@ -49,8 +49,8 @@ class Home extends Component {
                         <div className="spotlight-content font18">
                             <h3>Background</h3>
                             <br></br>
-                            <p>I studied math and computer science at Princeton. During my time there, I conducted computational genomics
-                                 research under Ben Raphael. I also previously interned as software engineer at Google. </p>
+                            <p>I studied math and computer science at Princeton as an undergrad. During my time there, I conducted computational genomics
+                                 research under Ben Raphael. I've also previously done stints as a software engineer at various places including Google. </p>
                         </div>
                     </div>
 
@@ -64,8 +64,9 @@ class Home extends Component {
                         <div className="spotlight-content font18">
                             <h3>Research</h3>
                             <br></br>
-                            <p>My research interests lie at the intersection of math and genomics. I enjoy developing algorithms to analyze large-scale genomic datasets. 
-                                 If you're interested in learning more, check out my research <Link to="/research" className="html5-link">page</Link>. </p>
+                            <p>I'm interested in developing computational methods for genomics data. 
+                                If you're interested in learning more, check out my research 
+                                <Link to="/research" className="html5-link">page</Link>. </p>
                         </div>
                     </div>
         
