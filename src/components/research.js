@@ -47,9 +47,9 @@ class Research extends Component {
                             <img  src={msk_logo} alt="Coming Soon" />
                         </div>
                         <div className="spotlight-content font18">
-                            <h3>Cancer Genomics</h3>
+                            <h3>Single-cell Genomics</h3>
                             <br></br>
-                            <h4>SCRI, 2021 - present</h4>
+                            <h4>SAIL, 2021 - present</h4>
                             <br></br>
                             <p>Currently conducting research in the Single-cell Analysis Innovation Lab under Dana Pe'er. In addition, 
                                 help develop and maintain data-processing pipelines that are used by the greater MSKCC research community. </p>

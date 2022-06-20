@@ -66,7 +66,7 @@ class Home extends Component {
                             <br></br>
                             <p>I'm interested in developing computational methods for genomics data. 
                                 If you're interested in learning more, check out my research 
-                                <Link to="/research" className="html5-link">page</Link>. </p>
+                                <Link to="/research" className="html5-link"> page</Link>. </p>
                         </div>
                     </div>
         
