@@ -1,7 +1,7 @@
 import React from 'react';
 import './../styles/header-footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
                     <a href="https://github.com/mrland99" className="footer-link"><FontAwesomeIcon icon={faGithub}/></a> </p> 
 		        </div>
 		        <div className="text-container">
-		            <p>&copy; Max Land 2021.</p>
+		            <p>&copy; Max Land 2022.</p>
 		        </div>
 		    </div>
 		</div>

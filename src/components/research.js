@@ -29,9 +29,8 @@ class Research extends Component {
                             <br></br>
                             <p>I'm broadly interested in developing computational methods for single-cell analysis, particularly for 
                                 spatial transcriptomics and other multiome datasets (ATAC + RNA). In terms of approach,
-                                I'm interested in utilizing ideas from graph theory and deep learning to develop graph-based approaches that
-                                can utilize the underlying graph structures omnipresent in genomic data such as spatial information, gene regulatory networks, 
-                                and cell trajectories. 
+                                I'm interested in utilizing ideas from graph theory and deep learning to develop novel approaches to study the interplay between
+                                gene regulation and cellular differentiation.
                             </p>
                             <br></br>
                     </div>
